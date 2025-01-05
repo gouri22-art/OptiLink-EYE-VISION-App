@@ -122,7 +122,7 @@ SignInBtn.addEventListener("click", () => {
     let password = SignInPassword.value;
 
     // Validate user credentials
-    fetch(" http://localhost:3000/customers")
+    fetch(" https://beryl-ember-havarti.glitch.me/customers")
         .then(response => response.json())
         .then(customers => {
             let userFound = customers.find(customer => customer.mobile === mobile && customer.password === password);
