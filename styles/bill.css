@@ -167,3 +167,110 @@ h4 {
     padding: 3px;
     margin: 0px;
 }
+
+/* For larger screens (1200px and above) */
+@media (min-width: 1200px) {
+    .navbar_eyeGlass {
+        font-size: 14px;
+    }
+    #contanier {
+        width: 40%;
+    }
+    .logo {
+        width: 12%;
+    }
+    .search_and_number {
+        width: 50%;
+    }
+    .track_order_Sign_in_Wishlist>a {
+        font-size: 14px;
+    }
+}
+
+/* For tablets (768px to 1199px) */
+@media (max-width: 1199px) and (min-width: 768px) {
+    .navbar_eyeGlass {
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+    }
+    #contanier {
+        width: 60%;
+    }
+    .track_order_Sign_in_Wishlist>a {
+        font-size: 12px;
+        padding: 10px 5px;
+    }
+    .search_and_number {
+        flex-direction: column;
+        width: 80%;
+    }
+    .number, .searchItem {
+        width: 100%;
+        margin: 5px 0;
+    }
+}
+
+/* For mobile devices (480px to 767px) */
+@media (max-width: 767px) {
+    .logo_Navbar, .navbar_eyeGlass {
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+    }
+    #contanier {
+        width: 90%;
+        padding: 10%;
+    }
+    .logo {
+        width: 40%;
+    }
+    .search_and_number {
+        flex-direction: column;
+        width: 100%;
+    }
+    .track_order_Sign_in_Wishlist>a {
+        font-size: 10px;
+        padding: 10px 5px;
+    }
+    table, th, td {
+        font-size: 12px;
+    }
+    .image {
+        width: 80%;
+    }
+}
+
+/* For extra small devices (below 480px) */
+@media (max-width: 480px) {
+    .navbar_eyeGlass, .track_order_Sign_in_Wishlist {
+        flex-direction: column;
+        font-size: 9px;
+    }
+    #contanier {
+        width: 100%;
+        padding: 10%;
+    }
+    .logo {
+        width: 60%;
+    }
+    .search_and_number {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .number, .searchItem {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .track_order_Sign_in_Wishlist>a {
+        font-size: 9px;
+        padding: 5px;
+    }
+    .image {
+        width: 100%;
+    }
+    table, th, td {
+        font-size: 10px;
+    }
+}

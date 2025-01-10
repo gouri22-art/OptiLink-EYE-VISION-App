@@ -36,7 +36,7 @@ Lenskart is an Indian eyewear online portal. It deals in sunglasses, eyeglasses,
 
 
 ## Important Link 
-Deployed link: https://eyesfx.netlify.app/
+Deployed link: https://gouri22-art.github.io/OptiLink-EYE-VISION-App/
 
 ## Tech Stack
 
