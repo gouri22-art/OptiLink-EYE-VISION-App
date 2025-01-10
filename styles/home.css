@@ -387,3 +387,64 @@ a>.logo{
     margin-bottom: 7%;
 
 }
+
+/* For devices with width 1024px and above (Desktops) */
+@media (min-width: 1024px) {
+    .top_navbar {
+        font-size: 14px;
+    }
+    .logo {
+        width: 12%;
+    }
+    .Button_3 button {
+        width: 100px;
+        height: 45px;
+        font-size: 16px;
+    }
+}
+
+/* For tablets (768px - 1023px) */
+@media (max-width: 1023px) and (min-width: 768px) {
+    .top_navbar {
+        font-size: 12px;
+        justify-content: space-between;
+    }
+    .logo {
+        width: 20%;
+    }
+    .Button_3 button {
+        width: 80px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .Body {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* For mobile devices (below 768px) */
+@media (max-width: 767px) {
+    .top_navbar {
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+    }
+    .logo {
+        width: 30%;
+        margin: auto;
+    }
+    .navbar_eyeGlass {
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+    }
+    .Body {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .Button_3 button {
+        width: 70px;
+        height: 35px;
+        font-size: 12px;
+    }
+}
